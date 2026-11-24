@@ -1,7 +1,7 @@
 # python official 3.12 bullseye
 # https://github.com/docker-library/python/tree/16e96e15aa5c7fec8ca41436159d62b22a733daf/3.12/bookworm
 
-FROM python:3.12-bookworm
+FROM python:3.15-bookworm
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
